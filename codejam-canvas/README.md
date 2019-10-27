@@ -4,8 +4,8 @@
 How to use:
 - Install Node.js
 - Clone this repository
-- Go to project's folder
 - Switch to branch 'codejam-canvas'
+- Go to folder 'codejam-canvas'
 - Use 'npm install' to install all dependencies 
 - Use 'npm start' to start project
 
