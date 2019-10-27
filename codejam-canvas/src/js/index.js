@@ -32,8 +32,10 @@
     });
   }
 
-  async function drawImage() {
-    //
+  function drawImage() {
+    const img = new Image();
+    img.src = "./assets/images/image.png";
+    img.addEventListener("load", () => ctx.drawImage(img, 0, 0, 512, 512));
   }
 
   buttons.forEach(el => {
