@@ -81,6 +81,10 @@
         </div>
       </aside>
       <main class="main-section">
+        <div class="error-msg">
+          Не удалось загрузить данные/картинку для отрисовки.<br />
+          Попробуйте еще раз.
+        </div>
         <canvas class="main-section__canvas" id="canvas"></canvas>
       </main>
       <aside class="aside-right">
@@ -93,7 +97,7 @@
             <div class="aside-right__fsize-bullet"></div>
             <div class="aside-right__fsize-name">32 x 32</div>
           </div>
-          <div data-size="256" class="aside-right__fsize">
+          <div data-is-image="true" class="aside-right__fsize">
             <div class="aside-right__fsize-bullet"></div>
             <div class="aside-right__fsize-name">256 x 256</div>
           </div>

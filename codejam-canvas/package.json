@@ -2,7 +2,6 @@
   "name": "codejam-canvas",
   "version": "1.0.0",
   "description": "RS-school homework: codejam-canvas",
-  "main": "index.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open"
