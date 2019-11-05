@@ -49,6 +49,7 @@ async function drawCanvas(size) {
     });
     handleErrorMsg("hide");
   } catch (e) {
+    console.log("Ошибка получения данных от сервера:", e);
     handleErrorMsg("show");
   }
 }
